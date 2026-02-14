@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of Dom</title>
+</head>
+<body>
+    <h2>This is Dom</h2>
+    <ul>
+        <li>getElementById</li>
+        <li>getElementByClassName</li>
+        <li>getElementByTagName</li>
+        <li>Dom Dom Dom sob e dom shudu</li>
+
+    </ul>
+    <script>
+        console.log("Hello Dom . How are you?");
+        const liCollection = document.getElementsByTagName('li');
+        console.log(liCollection);
+        for(const li of liCollection){
+            console.log(li.innerText);
+        }
+    </script>
+</body>
+</html>

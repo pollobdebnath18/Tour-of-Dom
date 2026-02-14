@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1 id="heading">Food i Love u</h1>
+        <ul>
+            <li>Rice</li>
+            <li class="item">Potato</li>
+            <li class="item">Fish</li>
+            <li class="item">Chicken</li>
+            <li class="item">Vegetable</li>
+            <li>Tomato</li>
+        </ul>
+    </section>
+
+    <script>
+        //id 
+        console.log('getElementByClassName vs getElementById');
+        const heading = document.getElementById('heading');
+        console.log(heading.innerText);
+        heading.innerText= 'Food i love u and love u ok'
+
+        // className
+        const allItems = document.getElementsByClassName('item');
+        console.log(allItems);
+        for(const element of allItems){
+            console.log(element.innerText);
+        }
+    </script>
+</body>
+</html>

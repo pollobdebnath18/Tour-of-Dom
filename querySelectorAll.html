@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>This is query selector ALl</H1>
+    <section class="sect">
+        <h2>inner heading tag of section</h2>
+        <p>Lorem ipsum dolor, sit <span>pollob</span>amet consectetur adipisicing elit. Eos quibusdam quod perspiciatis quidem optio? Nostrum repellendus <span>ami re ami</span> architecto repellat voluptatibus eaque quaerat minima repudiandae nulla adipisci atque dolores optio, sed iure? Dolores rem aut necessitatibus quibusdam temporibus eligendi eos explicabo iste.</p>
+        <h3>Lorem <span>ipsum</span>ipsum <span>dolar</span>dolor sit amet consectetur adipisicing elit. Provident nam est dicta aliquam rerum quod deleniti non pariatur cupiditate quo?</h3>
+    </section>
+    <script>
+        //document.querySelectorAll
+        const items = document.querySelectorAll('.sect  span');
+        console.log(items);
+        for(const span of items){
+            console.log(span.innerHTML);
+        }
+    </script>
+</body>
+</html>

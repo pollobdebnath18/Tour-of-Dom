@@ -1,0 +1,15 @@
+#comment-section div{
+    border: 2px solid tomato;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+    max-width: 60%;
+    margin-left: 50px;
+}
+#comment-section h1{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#input-field{
+    margin-left: 50px;
+}
